@@ -1,0 +1,153 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "mlflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mlflow",
+        "description": "mlflow",
+        "detail": "mlflow",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_model",
+        "kind": 2,
+        "importPath": "scripts.evaluate_model",
+        "description": "scripts.evaluate_model",
+        "peekOfCode": "def evaluate_model(\n    data_root_folder: str,\n    evaluation_threshold: float = 0.8,\n) -> bool:\n    # Load the model\n    model = mlflow.pyfunc.load_model(\"iris_model\")\n    # Load the test data\n    test_df = pd.read_csv(\n        pathlib.Path(data_root_folder).joinpath(\"test.csv\"), sep=\",\"\n    )",
+        "detail": "scripts.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "root_folder",
+        "kind": 5,
+        "importPath": "scripts.evaluate_model",
+        "description": "scripts.evaluate_model",
+        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\ndef evaluate_model(\n    data_root_folder: str,\n    evaluation_threshold: float = 0.8,\n) -> bool:\n    # Load the model\n    model = mlflow.pyfunc.load_model(\"iris_model\")\n    # Load the test data\n    test_df = pd.read_csv(\n        pathlib.Path(data_root_folder).joinpath(\"test.csv\"), sep=\",\"",
+        "detail": "scripts.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_data",
+        "kind": 2,
+        "importPath": "scripts.prepare_data",
+        "description": "scripts.prepare_data",
+        "peekOfCode": "def prepare_data(\n    input_data: str = str(root_folder.joinpath(\"data\", \"raw\", \"iris.csv\")),\n    output_folder: str = root_folder.joinpath(\"data\", \"processed\"),\n) -> None:\n    iris_df = pd.read_csv(input_data, sep=\",\")\n    train, validate, test = np.split(\n        iris_df.sample(frac=1, random_state=42),\n        [int(0.6 * len(iris_df)), int(0.8 * len(iris_df))],\n    )\n    train.to_csv(pathlib.Path(output_folder).joinpath(\"train.csv\"))",
+        "detail": "scripts.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "root_folder",
+        "kind": 5,
+        "importPath": "scripts.prepare_data",
+        "description": "scripts.prepare_data",
+        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\ndef prepare_data(\n    input_data: str = str(root_folder.joinpath(\"data\", \"raw\", \"iris.csv\")),\n    output_folder: str = root_folder.joinpath(\"data\", \"processed\"),\n) -> None:\n    iris_df = pd.read_csv(input_data, sep=\",\")\n    train, validate, test = np.split(\n        iris_df.sample(frac=1, random_state=42),\n        [int(0.6 * len(iris_df)), int(0.8 * len(iris_df))],\n    )",
+        "detail": "scripts.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "train_model",
+        "kind": 2,
+        "importPath": "scripts.train_model",
+        "description": "scripts.train_model",
+        "peekOfCode": "def train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")\n    # Extract features and labels\n    x_train = train_df.iloc[\n        :, 1:-1\n    ]  # Features (skip the first column which is an index)\n    y_train = train_df.iloc[:, -1]  # Target (last column)",
+        "detail": "scripts.train_model",
+        "documentation": {}
+    },
+    {
+        "label": "root_folder",
+        "kind": 5,
+        "importPath": "scripts.train_model",
+        "description": "scripts.train_model",
+        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\nmlflow.set_tracking_uri(uri=\"http://127.0.0.1:8080\")\nid = uuid.uuid4().hex\n# mlflow.set_experiment(experiment_id=id)\nmlflow.sklearn.autolog()\ndef train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")",
+        "detail": "scripts.train_model",
+        "documentation": {}
+    },
+    {
+        "label": "id",
+        "kind": 5,
+        "importPath": "scripts.train_model",
+        "description": "scripts.train_model",
+        "peekOfCode": "id = uuid.uuid4().hex\n# mlflow.set_experiment(experiment_id=id)\nmlflow.sklearn.autolog()\ndef train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")\n    # Extract features and labels\n    x_train = train_df.iloc[",
+        "detail": "scripts.train_model",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    print(\"Hello from mlops-with-mlflow!\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
