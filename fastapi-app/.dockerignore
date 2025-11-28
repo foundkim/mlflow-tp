@@ -5,11 +5,16 @@ build/
 dist/
 wheels/
 *.egg-info
+.ruff_cache
 
 # Virtual environments
 .venv
+uv.lock
+.env
 
-# ML Flow
-mlruns/
-mlflow/
-data/processed-mlflow/
+# exploration
+notebooks
+
+#mlflow
+mlruns
+mlartifacts

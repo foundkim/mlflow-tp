@@ -1,4 +1,4 @@
-,150,4,setosa,versicolor,virginica
+,sepal_lenght,sepal_width,petal_lenght,petal_width,prediction
 98,5.1,2.5,3.0,1.1,1
 120,6.9,3.2,5.7,2.3,2
 83,6.0,2.7,5.1,1.6,1

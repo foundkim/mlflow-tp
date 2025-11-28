@@ -18,7 +18,7 @@ python3 "$SCRIPT_DIR/scripts/prepare_data.py"  --input_data "$1" --output_folder
 
 # Step 2: Train the model
 echo "Training the model..."
-python3 "$SCRIPT_DIR/scripts/train_model.py"
+python3 "$SCRIPT_DIR/scripts/train_model.py"  --data_folder "$2"
 
 # Step 3: Evaluate the model
 echo "Evaluating the model..."
