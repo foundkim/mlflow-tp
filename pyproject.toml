@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "dotenv>=0.9.9",
+    "evidently>=0.7.17",
     "mlflow>=2.21.3",
     "numpy>=2.2.4",
     "pandas>=2.2.3",

@@ -1,20 +1,177 @@
 [
     {
-        "label": "argparse",
+        "label": "runpy",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
         "documentation": {}
     },
     {
-        "label": "joblib",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "joblib",
-        "description": "joblib",
-        "detail": "joblib",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "WORKER_PROCESS",
+        "importPath": "huey.constants",
+        "description": "huey.constants",
+        "isExtraImport": true,
+        "detail": "huey.constants",
+        "documentation": {}
+    },
+    {
+        "label": "Consumer",
+        "importPath": "huey.consumer",
+        "description": "huey.consumer",
+        "isExtraImport": true,
+        "detail": "huey.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "ConsumerConfig",
+        "importPath": "huey.consumer_options",
+        "description": "huey.consumer_options",
+        "isExtraImport": true,
+        "detail": "huey.consumer_options",
+        "documentation": {}
+    },
+    {
+        "label": "OptionParserHandler",
+        "importPath": "huey.consumer_options",
+        "description": "huey.consumer_options",
+        "isExtraImport": true,
+        "detail": "huey.consumer_options",
+        "documentation": {}
+    },
+    {
+        "label": "load_class",
+        "importPath": "huey.utils",
+        "description": "huey.utils",
+        "isExtraImport": true,
+        "detail": "huey.utils",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "schemas",
+        "description": "schemas",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "inference",
+        "importPath": "schemas",
+        "description": "schemas",
+        "isExtraImport": true,
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "make_predictions",
+        "importPath": "services",
+        "description": "services",
+        "isExtraImport": true,
+        "detail": "services",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -27,21 +184,62 @@
         "documentation": {}
     },
     {
+        "label": "config",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "inference_router",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "root_router",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
         "label": "pathlib",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pathlib",
         "description": "pathlib",
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -62,15 +260,6 @@
         "documentation": {}
     },
     {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
         "label": "RandomForestClassifier",
         "importPath": "sklearn.ensemble",
         "description": "sklearn.ensemble",
@@ -79,20 +268,288 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Report",
+        "importPath": "evidently",
+        "description": "evidently",
+        "isExtraImport": true,
+        "detail": "evidently",
+        "documentation": {}
+    },
+    {
+        "label": "DataDriftPreset",
+        "importPath": "evidently.presets",
+        "description": "evidently.presets",
+        "isExtraImport": true,
+        "detail": "evidently.presets",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"mlops-with-mlflow\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"mlops-with-mlflow\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"mlops-with-mlflow\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"mlops-with-mlflow\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"mlops-with-mlflow\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "err",
+        "kind": 2,
+        "importPath": ".venv.bin.huey_consumer",
+        "description": ".venv.bin.huey_consumer",
+        "peekOfCode": "def err(s):\n    sys.stderr.write('\\033[91m%s\\033[0m\\n' % s)\ndef load_huey(path):\n    try:\n        return load_class(path)\n    except:\n        cur_dir = os.getcwd()\n        if cur_dir not in sys.path:\n            sys.path.insert(0, cur_dir)\n            return load_huey(path)",
+        "detail": ".venv.bin.huey_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "load_huey",
+        "kind": 2,
+        "importPath": ".venv.bin.huey_consumer",
+        "description": ".venv.bin.huey_consumer",
+        "peekOfCode": "def load_huey(path):\n    try:\n        return load_class(path)\n    except:\n        cur_dir = os.getcwd()\n        if cur_dir not in sys.path:\n            sys.path.insert(0, cur_dir)\n            return load_huey(path)\n        err('Error importing %s' % path)\n        raise",
+        "detail": ".venv.bin.huey_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "consumer_main",
+        "kind": 2,
+        "importPath": ".venv.bin.huey_consumer",
+        "description": ".venv.bin.huey_consumer",
+        "peekOfCode": "def consumer_main():\n    parser_handler = OptionParserHandler()\n    parser = parser_handler.get_option_parser()\n    options, args = parser.parse_args()\n    if len(args) == 0:\n        err('Error:   missing import path to `Huey` instance')\n        err('Example: huey_consumer.py app.queue.huey_instance')\n        sys.exit(1)\n    options = {k: v for k, v in options.__dict__.items()\n               if v is not None}",
+        "detail": ".venv.bin.huey_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "fastapi-app.api.inference",
+        "description": "fastapi-app.api.inference",
+        "peekOfCode": "def predict(input_data: schemas.inference.InferenceIn):\n    predictions = make_predictions(input_data)\n    print(f\"Predictions: {predictions}\")\n    return schemas.inference.InferenceOut(prediction=predictions)",
+        "detail": "fastapi-app.api.inference",
+        "documentation": {}
+    },
+    {
+        "label": "inference_router",
+        "kind": 5,
+        "importPath": "fastapi-app.api.inference",
+        "description": "fastapi-app.api.inference",
+        "peekOfCode": "inference_router = APIRouter(prefix=\"/inference\", tags=[\"Prediction\", \"Inference\"])\n# Define the prediction endpoint\n@inference_router.post(\"/predict\")\ndef predict(input_data: schemas.inference.InferenceIn):\n    predictions = make_predictions(input_data)\n    print(f\"Predictions: {predictions}\")\n    return schemas.inference.InferenceOut(prediction=predictions)",
+        "detail": "fastapi-app.api.inference",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "fastapi-app.api.root",
+        "description": "fastapi-app.api.root",
+        "peekOfCode": "def root():\n    \"\"\"Default page.\"\"\"\n    return {\"message\": \"Welcome to the ML Flow Service!\"}",
+        "detail": "fastapi-app.api.root",
+        "documentation": {}
+    },
+    {
+        "label": "root_router",
+        "kind": 5,
+        "importPath": "fastapi-app.api.root",
+        "description": "fastapi-app.api.root",
+        "peekOfCode": "root_router = APIRouter(prefix=\"/inference\", tags=[\"Prediction\", \"Inference\"])\n@root_router.get(\"/\", tags=[\"Home Page\"])\ndef root():\n    \"\"\"Default page.\"\"\"\n    return {\"message\": \"Welcome to the ML Flow Service!\"}",
+        "detail": "fastapi-app.api.root",
+        "documentation": {}
+    },
+    {
+        "label": "Configuration",
+        "kind": 6,
+        "importPath": "fastapi-app.core.config",
+        "description": "fastapi-app.core.config",
+        "peekOfCode": "class Configuration(BaseSettings):\n    # General\n    API_TITLE: str\n    API_HOST: str\n    API_PORT: int\n    # MLFLow\n    MLFLOW_TRACKING_URI: str\n    MLFLOW_EXPERIMENT_NAME: str\n    model_config = SettingsConfigDict(env_file=\".env\")\n    MODEL_URI: str",
+        "detail": "fastapi-app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "fastapi-app.core.config",
+        "description": "fastapi-app.core.config",
+        "peekOfCode": "config = Configuration()",
+        "detail": "fastapi-app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceIn",
+        "kind": 6,
+        "importPath": "fastapi-app.schemas.inference",
+        "description": "fastapi-app.schemas.inference",
+        "peekOfCode": "class InferenceIn(BaseModel):\n    sepal_lenght: float\n    sepal_width: float\n    petal_lenght: float\n    petal_width: float\nclass InferenceOut(BaseModel):\n    prediction: list",
+        "detail": "fastapi-app.schemas.inference",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceOut",
+        "kind": 6,
+        "importPath": "fastapi-app.schemas.inference",
+        "description": "fastapi-app.schemas.inference",
+        "peekOfCode": "class InferenceOut(BaseModel):\n    prediction: list",
+        "detail": "fastapi-app.schemas.inference",
+        "documentation": {}
+    },
+    {
+        "label": "make_predictions",
+        "kind": 2,
+        "importPath": "fastapi-app.services.ml",
+        "description": "fastapi-app.services.ml",
+        "peekOfCode": "def make_predictions(input_data: inference.InferenceIn):\n    # Convert input data to a DataFrame\n    input_df = pd.DataFrame([input_data.model_dump(mode=\"python\")])\n    model = get_iris_model()\n    # Make predictions\n    predictions = model.predict(input_df)\n    # Return the predictions\n    return predictions.tolist()",
+        "detail": "fastapi-app.services.ml",
+        "documentation": {}
+    },
+    {
+        "label": "get_iris_model",
+        "kind": 2,
+        "importPath": "fastapi-app.services.ml_models",
+        "description": "fastapi-app.services.ml_models",
+        "peekOfCode": "def get_iris_model():\n    model_uri = config.MODEL_URI\n    return mlflow.pyfunc.load_model(model_uri)",
+        "detail": "fastapi-app.services.ml_models",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "fastapi-app.app",
+        "description": "fastapi-app.app",
+        "peekOfCode": "app = FastAPI(title=config.API_TITLE)\n# Include the router\napp.include_router(root_router)\napp.include_router(inference_router)\nif __name__ == \"__main__\":\n    uvicorn.run(\"app:app\", host=config.API_HOST, port=config.API_PORT, reload=True)",
+        "detail": "fastapi-app.app",
+        "documentation": {}
+    },
+    {
         "label": "evaluate_model",
         "kind": 2,
         "importPath": "scripts.evaluate_model",
         "description": "scripts.evaluate_model",
-        "peekOfCode": "def evaluate_model(\n    data_root_folder: str,\n    evaluation_threshold: float = 0.8,\n) -> bool:\n    # Load the model\n    model = mlflow.pyfunc.load_model(\"iris_model\")\n    # Load the test data\n    test_df = pd.read_csv(\n        pathlib.Path(data_root_folder).joinpath(\"test.csv\"), sep=\",\"\n    )",
-        "detail": "scripts.evaluate_model",
-        "documentation": {}
-    },
-    {
-        "label": "root_folder",
-        "kind": 5,
-        "importPath": "scripts.evaluate_model",
-        "description": "scripts.evaluate_model",
-        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\ndef evaluate_model(\n    data_root_folder: str,\n    evaluation_threshold: float = 0.8,\n) -> bool:\n    # Load the model\n    model = mlflow.pyfunc.load_model(\"iris_model\")\n    # Load the test data\n    test_df = pd.read_csv(\n        pathlib.Path(data_root_folder).joinpath(\"test.csv\"), sep=\",\"",
+        "peekOfCode": "def evaluate_model(\n    data_root_folder: str,\n    model_name: str = \"iris_model\",\n    evaluation_threshold: float = 0.8,\n) -> bool:\n    \"\"\"Evaluate given model on given dataset.\"\"\"\n    # Load the model\n    model = mlflow.pyfunc.load_model(\"mlflow\")\n    # Load the test data\n    test_df = pd.read_csv(pathlib.Path(data_root_folder).joinpath(\"test.csv\"), sep=\",\")",
         "detail": "scripts.evaluate_model",
         "documentation": {}
     },
@@ -101,16 +558,7 @@
         "kind": 2,
         "importPath": "scripts.prepare_data",
         "description": "scripts.prepare_data",
-        "peekOfCode": "def prepare_data(\n    input_data: str = str(root_folder.joinpath(\"data\", \"raw\", \"iris.csv\")),\n    output_folder: str = root_folder.joinpath(\"data\", \"processed\"),\n) -> None:\n    iris_df = pd.read_csv(input_data, sep=\",\")\n    train, validate, test = np.split(\n        iris_df.sample(frac=1, random_state=42),\n        [int(0.6 * len(iris_df)), int(0.8 * len(iris_df))],\n    )\n    train.to_csv(pathlib.Path(output_folder).joinpath(\"train.csv\"))",
-        "detail": "scripts.prepare_data",
-        "documentation": {}
-    },
-    {
-        "label": "root_folder",
-        "kind": 5,
-        "importPath": "scripts.prepare_data",
-        "description": "scripts.prepare_data",
-        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\ndef prepare_data(\n    input_data: str = str(root_folder.joinpath(\"data\", \"raw\", \"iris.csv\")),\n    output_folder: str = root_folder.joinpath(\"data\", \"processed\"),\n) -> None:\n    iris_df = pd.read_csv(input_data, sep=\",\")\n    train, validate, test = np.split(\n        iris_df.sample(frac=1, random_state=42),\n        [int(0.6 * len(iris_df)), int(0.8 * len(iris_df))],\n    )",
+        "peekOfCode": "def prepare_data(input_data: str, output_folder: str) -> None:\n    \"\"\"Prepare data.\"\"\"\n    iris_df = pd.read_csv(input_data, sep=\",\")\n    train, validate, test = np.split(\n        iris_df.sample(frac=1, random_state=42),\n        [int(0.6 * len(iris_df)), int(0.8 * len(iris_df))],\n    )\n    train.to_csv(pathlib.Path(output_folder).joinpath(\"train.csv\"))\n    validate.to_csv(pathlib.Path(output_folder).joinpath(\"validate.csv\"))\n    test.to_csv(pathlib.Path(output_folder).joinpath(\"test.csv\"))",
         "detail": "scripts.prepare_data",
         "documentation": {}
     },
@@ -119,35 +567,53 @@
         "kind": 2,
         "importPath": "scripts.train_model",
         "description": "scripts.train_model",
-        "peekOfCode": "def train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")\n    # Extract features and labels\n    x_train = train_df.iloc[\n        :, 1:-1\n    ]  # Features (skip the first column which is an index)\n    y_train = train_df.iloc[:, -1]  # Target (last column)",
+        "peekOfCode": "def train_model(training_data: str, model_name: str = \"iris_model\") -> None:\n    \"\"\"Train a model using MLflow and scikit-learn.\"\"\"\n    # Load the dataset\n    train_df = pd.read_csv(pathlib.Path(training_data).joinpath(\"train.csv\"), sep=\",\")\n    # Extract features and labels\n    x_train = train_df.iloc[\n        :, 1:-1\n    ]  # Features (skip the first column which is an index)\n    y_train = train_df.iloc[:, -1]  # Target (last column)\n    with mlflow.start_run():",
         "detail": "scripts.train_model",
         "documentation": {}
     },
     {
-        "label": "root_folder",
-        "kind": 5,
-        "importPath": "scripts.train_model",
-        "description": "scripts.train_model",
-        "peekOfCode": "root_folder = pathlib.Path(\"__file__\").resolve().parent\nmlflow.set_tracking_uri(uri=\"http://127.0.0.1:8080\")\nid = uuid.uuid4().hex\n# mlflow.set_experiment(experiment_id=id)\nmlflow.sklearn.autolog()\ndef train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")",
-        "detail": "scripts.train_model",
-        "documentation": {}
-    },
-    {
-        "label": "id",
-        "kind": 5,
-        "importPath": "scripts.train_model",
-        "description": "scripts.train_model",
-        "peekOfCode": "id = uuid.uuid4().hex\n# mlflow.set_experiment(experiment_id=id)\nmlflow.sklearn.autolog()\ndef train_model(\n    training_data: str = str(root_folder.joinpath(\"data\", \"processed\", \"train.csv\")),\n) -> None:\n    # Load the dataset\n    train_df = pd.read_csv(training_data, sep=\",\")\n    # Extract features and labels\n    x_train = train_df.iloc[",
-        "detail": "scripts.train_model",
-        "documentation": {}
-    },
-    {
-        "label": "main",
+        "label": "parse_logs_to_df",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def main():\n    print(\"Hello from mlops-with-mlflow!\")\nif __name__ == \"__main__\":\n    main()",
-        "detail": "main",
+        "importPath": "evaluation",
+        "description": "evaluation",
+        "peekOfCode": "def parse_logs_to_df(log_text):\n    \"\"\"\n    Parses log lines to extract the dictionary containing features and predictions.\n    \"\"\"\n    data_list = []\n    pattern = r\"Prediction made: (\\{.*\\})\"\n    for line in log_text.strip().split('\\n'):\n        match = re.search(pattern, line)\n        if match:\n            record = ast.literal_eval(match.group(1))",
+        "detail": "evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "generate_iris_data",
+        "kind": 2,
+        "importPath": "generate_data",
+        "description": "generate_data",
+        "peekOfCode": "def generate_iris_data():\n    \"\"\"\n    Generates random float values within typical ranges \n    for Iris flower measurements.\n    \"\"\"\n    return {\n        # Using the specific spelling 'lenght' to match your curl command\n        \"sepal_lenght\": round(random.uniform(4.3, 7.9), 1),\n        \"sepal_width\": round(random.uniform(2.0, 4.4), 1),\n        \"petal_lenght\": round(random.uniform(1.0, 6.9), 1),",
+        "detail": "generate_data",
+        "documentation": {}
+    },
+    {
+        "label": "send_request",
+        "kind": 2,
+        "importPath": "generate_data",
+        "description": "generate_data",
+        "peekOfCode": "def send_request():\n    payload = generate_iris_data()\n    try:\n        print(f\"Sending payload: {json.dumps(payload, indent=2)}\")\n        response = requests.post(\n            URL, \n            headers=HEADERS, \n            json=payload,\n            timeout=5\n        )",
+        "detail": "generate_data",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "generate_data",
+        "description": "generate_data",
+        "peekOfCode": "URL = 'http://127.0.0.1:8001/inference/predict'\nHEADERS = {\n    'accept': 'application/json',\n    'Content-Type': 'application/json'\n}\ndef generate_iris_data():\n    \"\"\"\n    Generates random float values within typical ranges \n    for Iris flower measurements.\n    \"\"\"",
+        "detail": "generate_data",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "generate_data",
+        "description": "generate_data",
+        "peekOfCode": "HEADERS = {\n    'accept': 'application/json',\n    'Content-Type': 'application/json'\n}\ndef generate_iris_data():\n    \"\"\"\n    Generates random float values within typical ranges \n    for Iris flower measurements.\n    \"\"\"\n    return {",
+        "detail": "generate_data",
         "documentation": {}
     }
 ]
